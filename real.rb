@@ -23,7 +23,11 @@ def create_branch
   #`brew install hub`
   #`export GITHUB_USER="DeinaK"`
   #`export GITHUB_PASSWORD="PassportDK123@"`
-  `hub pull-request -m "hello"`
+  res = `hub pull-request -m "hello"`
+
+
+  puts "Print"
+  puts res
 end
 
 create_branch
